@@ -11,6 +11,6 @@ Finding the maximum of a complex function by steepest ascent algorithm(aka gradi
 - Method: changes in 1-neighborhood algorithm, we can also apply for complex method like simulated annealing or genetic algorithm.
 - Note: For this task we can also other method like Shrikn
 
-- **Task 3:** Perform Monte Carlo algorithm to estimate matter of interest.
+**Task 3:** Perform Monte Carlo algorithm to estimate matter of interest.
 
 I include R-notebook and html notebook. Please head to https://htmlpreview.github.io/ and paste html link to see the preview.
