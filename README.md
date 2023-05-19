@@ -3,6 +3,7 @@
 In this workbook I play with some statistical methods to solve some easy problems: 
 
 **Task 1:** Optimization of continuous function
+
 Finding the maximum of a complex function by steepest ascent algorithm (aka gradien descent) with backtracking.
 
 **Task 2:** Optimization of discrete function
