@@ -14,4 +14,4 @@ Finding the maximum of a complex function by building from the scratch the steep
 
 **Task 3:** Perform Monte Carlo algorithm to estimate matter of interest.
 
-I include R-notebook and html notebook. Please head to https://htmlpreview.github.io/ and paste html link to see the preview.
+I include rmd file and html file. Please head to https://htmlpreview.github.io/ and paste html link to see the preview.
