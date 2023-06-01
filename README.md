@@ -16,7 +16,7 @@ Finding the maximum of a complex function by building from the scratch the ***st
   - Use BIC to decide which one in 8 models is the best.
   - *Note:* we can increase the number of random starts and change in 2 or 3-neighborhood but it will be computationally more expensive.
 
-- Additional note: This is just one approach, for this task we can also other methods like Shrinking method (Ridge, Lasso) or Machine Learning model.
+- Additional note: This is just one approach, for this task we can use other methods like Shrinking method (Ridge, Lasso) or Machine Learning model.
 - For discrete optimization we can apply more complex method like simulated annealing or genetic algorithm.
 
 ## Task 3: Monte Carlo algorithm for estimation
