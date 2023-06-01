@@ -14,7 +14,7 @@ Finding the maximum of a complex function by building from the scratch the ***st
   -  Draw 8 random starts contains 60 predictors with 1 - variable included and 0 - variable not included.
   - Using change in 1-neighborhood algorithm and BIC to have convergence towards 8 best models.
   - Use BIC to decide which one in 8 models is the best.
-*Note:* we can increase the number of random starts and change in 2 or 3-neighborhood but it will be computationally more expensive.
+  - *Note:* we can increase the number of random starts and change in 2 or 3-neighborhood but it will be computationally more expensive.
 
 - Additional note: This is just one approach, for this task we can also other methods like Shrinking method (Ridge, Lasso) or Machine Learning model.
 - For discrete optimization we can apply more complex method like simulated annealing or genetic algorithm.
