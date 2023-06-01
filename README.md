@@ -8,7 +8,7 @@ Finding the maximum of a complex function by building from the scratch the ***st
 
 ## Task 2: Optimization of discrete function
 - Task: Selecting a best subset of regressors to explain a sale price for houses, meaning we try to eliminate unrelated variables out of model.
-- Method: *changes in n-neighborhood algorithm*, systematically changes the neighborhood in two phases: firstly, descent to find a local optimum and second phase is to get out of the corresponding valley by changing n predictor. I build it from the scratch also. 
+- Method: ***changes in n-neighborhood algorithm***, systematically changes the neighborhood in two phases: firstly, descent to find a local optimum and second phase is to get out of the corresponding valley by changing n predictor. I build it from the scratch also. 
 - Idea behind it: a function can have multiple local maximum, we can get stuck easily on one local optimum, it's hard to get out of it and explore the whole distribution. 
 - Steps: 
   -  Draw 8 random starts contains 60 predictors with 1 - variable included and 0 - variable not included.
@@ -19,6 +19,6 @@ Finding the maximum of a complex function by building from the scratch the ***st
 - Additional note: This is just one approach, for this task we can also other methods like Shrinking method (Ridge, Lasso) or Machine Learning model.
 - For discrete optimization we can apply more complex method like simulated annealing or genetic algorithm.
 
-## Task 3: Perform Monte Carlo algorithm to estimate matter of interest.
+## Task 3: Monte Carlo algorithm for estimation
 
 I include rmd file and html file. Please head to https://htmlpreview.github.io/ and paste html link to see the preview.
