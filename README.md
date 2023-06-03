@@ -4,7 +4,7 @@ In this workbook I play with some statistical methods to solve some easy problem
 
 ## Task 1: Optimization of continuous function
 
-Finding the maximum of a complex function by building from the scratch the ***steepest ascent algorithm (aka gradien descent)***. I use *backtracking* to adjust the learning rate (alpha), meaning when the new candidate produce smaller value than the current candidate, then the step is too big and the new alpha is adjusted as 1/2 old alpha.
+Finding the maximum of a complex function by building from the scratch the ***steepest ascent algorithm (aka gradien descent)***. I use *backtracking* to adjust the learning rate (alpha), meaning when the new candidate produce smaller value than the current candidate, then it overshoots, the learning step is too big so the new alpha is adjusted as 1/2 old alpha.
 
 ## Task 2: Optimization of discrete function
 - Task: Selecting a best subset of regressors to explain a sale price for houses, meaning we try to eliminate unrelated variables out of model.
