@@ -16,8 +16,8 @@ Finding the maximum of a complex function by building from the scratch the ***st
   - *Note:* we can increase the number of random starts and change in 2 or 3-neighborhood but it will be computationally more expensive.
 - Idea behind it: a function can have multiple local maximum, we can get stuck easily on one, it's hard to get out of it and explore the whole distribution. That's why I have 8 random starts converge to 8 optimums to hopefully the find global maximum.
 
-- Additional note: This is just one approach, for this task we can use other methods like Shrinking method (Ridge, Lasso) or Machine Learning model.
-- For discrete optimization we can apply more complex method like simulated annealing or genetic algorithm.
+- Additional note: This is just one approach, for this task we can use other techniques like Shrinking method (Ridge, Lasso) or Machine Learning model.
+- For discrete optimization we can apply more complex procedures like simulated annealing or genetic algorithm.
 
 ## Task 3: Monte Carlo algorithm for estimation
 
