@@ -13,7 +13,7 @@ I use *backtracking* to adjust the learning rate (*alpha*), meaning when the new
 - Task: Selecting a best subset of regressors to explain a sale price for houses, meaning we try to eliminate unrelated variables out of model.
 - Method: ***changes in n-neighborhood algorithm***, systematically changes the neighborhood in two phases: firstly, descent to find a local optimum and second phase is to get out of the corresponding valley by changing n predictor. I build it from the scratch also. 
 - Steps: 
-  -  Draw 8 random starts contains 60 predictors, with 1 as *variable included* and 0 as *variable not included*.
+  -  Draw 8 random starts contains 60 predictors, with 1 as *this predictor included* and 0 as *this predictor not included*.
   - Using change in 1-neighborhood algorithm (change one factor from 0 to 1 - from exclude to include or vice versa) and using information criteria BIC to have convergence towards 8 best models.
   - Use BIC to decide which one in 8 models is the best.
   - *Note:* we can increase the number of random starts and change in 2 or 3-neighborhood but it will be computationally more expensive.
